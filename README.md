@@ -24,4 +24,4 @@ VentVault is a simple MERN stack web application designed to provide a platform 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/ventvault.git
+git clone https://github.com/Pavan-27Teja/ventvault.git
