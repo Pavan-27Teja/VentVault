@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+    margin: 0 auto;
+}
+
+:root{
+    --brand-color:#403F44;
+    --brand-lowcolor:#68676B;
+    --brand-bgcolor:#ffecee;
+    
+}
+
+@layer components{
+    
+    .nav-link{
+        @apply p-5 rounded-md  grid place-items-center
+    }
+    .card{
+        @apply shadow-lg p-5 rounded-lg bg-[#FCFCFB] mt-10
+    }
+    .input{
+        @apply bg-white  outline-none rounded-lg px-3 py-2 border-[--brand-color] border-2
+    }
+    .title{
+        @apply text-xl font-semibold mt-10
+    }
+    .btn{
+        @apply px-3 py-2 bg-[--brand-color] rounded-lg text-white
+    }
+}
